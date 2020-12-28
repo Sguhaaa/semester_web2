@@ -83,14 +83,14 @@
 .slider{
     position: relative;
     max-width: 1400px;
-    padding-left: 135px;
-    margin: 0 auto;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .slider__wrapper{
     position: relative;
-    overflow: hidden;
+    
 }
 
 .slider__items{
@@ -100,7 +100,10 @@
 
 .slide{
     flex: 0 0 100%;
+    overflow: hidden;
     max-width: 100%;
+    padding-left: 130px;
+    padding-right: 0px;
 }
 
 .slide__wrap{
