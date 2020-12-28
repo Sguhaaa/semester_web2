@@ -160,6 +160,24 @@
     background: center/ contain no-repeat url(../img/active_point.svg);
 }
 
+@media(max-width:1295px){
+    .slide__image{
+        display: none;
+    }
+    .slider__wrapper{
+        height: 610px;
+    }
+}
+
+/* @media(max-width:980px){
+    .separation-line{
+        display: none;
+    }
+    .tagline{
+        display: none;
+    }
+} */
+
 @media(max-width: 768px){
     .slide-btn{
         display: none;
@@ -175,6 +193,7 @@
     }
     .slide{
         height: 612px;
+        padding-left: 0;
     }
     .slide-title{
         width: 80%;
@@ -182,8 +201,17 @@
     .slide-subtitle{
         width: 70%;
     }
-    .slide__image{
+}
+
+@media(max-width: 495px){
+    .separation-line{
         display: none;
+    }
+    .tagline{
+        display: none;
+    }
+    .contacts{
+        margin: 0;
     }
 }
 
@@ -222,7 +250,8 @@
         width: 100%;
     }
     .slide-btn{
-        width: 345px;
+        max-width: 345px;
+        width: 100%;
         padding-left: 15px;
         padding-top: 15px;
         padding-bottom: 15px;
