@@ -210,9 +210,6 @@
     .tagline{
         display: none;
     }
-    .contacts{
-        margin: 0;
-    }
 }
 
 @media(max-width: 376px){
@@ -251,7 +248,6 @@
     }
     .slide-btn{
         max-width: 345px;
-        width: 100%;
         padding-left: 15px;
         padding-top: 15px;
         padding-bottom: 15px;
