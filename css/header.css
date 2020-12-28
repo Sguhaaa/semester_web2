@@ -197,6 +197,10 @@
     }
     .slide-title{
         width: 80%;
+        margin: 156px 0 18px;
+        font-family: 'ProximaNovaExtrabld';
+        font-size: 55px;
+        line-height: 64px;
     }
     .slide-subtitle{
         width: 70%;
@@ -220,12 +224,18 @@
         background: radial-gradient(75.49% 75.49% at 61.01% 75.77%, #376A9A 0%, #2B5276 100%);
         color: white;
     }
+    .slide-title{
+        margin: 120px 0 18px;
+        width: 80%;
+        font-size: 30px;
+        line-height: 46px;
+    }
     .slide-subtitle {
         margin-top: 37px;
         margin-bottom: 62px;
-        width: 500px;
+        width: 80%;
         font-family: 'ProximaNovaLight';
-        font-size: 16px;
+        font-size: 14px;
         line-height: 24px;
     }
     .separation-line{
@@ -237,15 +247,7 @@
     .login-btn::before{
         display: none;
     }
-    .slide-title{
-        margin: 120px 0 18px;
-        width: 100%;
-        font-size: 38px;
-        line-height: 46px;
-    }
-    .slide-subtitle{
-        width: 100%;
-    }
+    
     .slide-btn{
         max-width: 345px;
         padding-left: 15px;
